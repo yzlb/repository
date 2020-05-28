@@ -1,0 +1,30 @@
+{
+    "plugins": [
+        "theme-fexa",
+        "tbfed-pagefooter"
+        ],
+    "variables": {
+        "themeFexa":{
+            "nav":[
+                {
+                    "url":"http://...",
+                    "target":"_blank",
+                    "name": "云商在线帮助"
+                }
+            ]
+    }
+    },
+    "pluginsConfig": {
+        "theme-fexa":{
+            "search-placeholder":"输入关键字搜索", 
+            "logo":"./128.ico", 
+            "favicon": "./128.ico" 
+        },
+        "tbfed-pagefooter": {
+            "copyright":"成都天力卓越软件股份有限公司",
+            "modify_label": "该文件最后修改时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+
+    }
+}
